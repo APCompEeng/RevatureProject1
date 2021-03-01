@@ -19,6 +19,7 @@ List of features ready and TODOs for future development
 - An example of an English wikipedia article that is relatively more popular in the UK (repeat for the US and Australia)
 - How many users will see the average vandalized wikipedia page before the offending edit is reversed
 - Run an analysis you find interesting on the wikipedia datasets we're using.
+
 To-do list:
 - Optimize partitions to better read from the database
 - Clean up and seperate question 1-3 scripts
@@ -30,6 +31,7 @@ To-do list:
 ```sbin/start-yarn.sh```
 - Initiate a hive server running ```hiveserver2```
 - Connect to hiveserver and begin running queries
+
 ## Usage
 To use this project simply run the queries to get their specific data, or edit and run the Hive Queries depending on what questions you wish to answer. Data files are uncommitted due to their size being over 100 MB, they will have to be redownloaded
 
